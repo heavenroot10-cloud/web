@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        h1 { color: #ff6600; }
+
+        .product-container {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .product-card {
+            background: white;
+            border: 2px solid #ff6600;
+            border-radius: 12px;
+            width: 280px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            background: #fafafa;
+        }
+
+        .product-name {
+            font-weight: bold;
+            margin-bottom: 20px;
+            min-height: 45px;
+        }
+
+        .view-button {
+            display: block;
+            background-color: #ff6600;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .view-button:hover {
+            background-color: #e65c00;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Our Products</h1>
+
+    <div class="product-container">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="download (1).jfif" alt="Moon Space Lamp" class="product-image">
+            <div class="product-name">Moon Space Lamp</div>
+            <a href="https://s.daraz.com.np/s.ZXp4q" target="_blank" class="view-button">Open Link</a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="download.jfif" alt="Foldable Table" class="product-image">
+            <div class="product-name">Foldable Table for Studying</div>
+            <a href="https://s.daraz.com.np/s.Z2dlC" target="_blank" class="view-button">Open Link</a>
+        </div>
+    </div>
+
+</body>
+</html>
